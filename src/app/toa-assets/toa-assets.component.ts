@@ -15,9 +15,7 @@ export class ToaAssetsComponent implements OnInit {
   constructor(private formBuilder: FormBuilder) { }
 
   ngOnInit() {
-    this.formGroup = this.formBuilder.group({
-      'holder': new FormControl('', []),
-    });
+    this.formGroup = this.formBuilder.group({});
   }
 
   public cdOrInvestChangeHandler(value: string){

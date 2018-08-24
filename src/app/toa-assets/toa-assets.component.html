@@ -1,6 +1,5 @@
 <form [formGroup]='formGroup'>
   Inside the asset page
-  <input type="text" id='holder' formControlName='holder' />
   <app-toa-cd-and-invest [parentFormGroup]='formGroup' (cdOrInvestChange)='cdOrInvestChangeHandler($event)'></app-toa-cd-and-invest>
   <hr/>
   <app-toa-cd-detail *ngIf='cdOrInvest === cdOrInvestEnum.cd' [parentFormGroup]='formGroup'></app-toa-cd-detail>
