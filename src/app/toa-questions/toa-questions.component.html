@@ -1,0 +1,6 @@
+<div [formGroup]='formGroup'>
+  <div *ngFor="let question of questions; let idx = index">
+    <input type="radio" id="{{question.id}}" formControlName="formControlQuestions" value={{question.id}}>
+    <label for="{{question.id}}">{{question.title}}</label>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+{
+	"cdOrInvest": [
+		{
+			"id": "cd",
+			"title": "Certificate of Deposit"
+		},
+		{
+			"id": "investment",
+			"title": "Investment"
+		}
+	],
+	"fullOrPartial": [
+		{
+			"id": "full",
+			"title": "Full"
+		},
+		{
+			"id": "partial",
+			"title": "Partial"
+		}
+	]
+}

@@ -4,4 +4,5 @@
   <hr/>
   <app-toa-cd-detail *ngIf='cdOrInvest === cdOrInvestEnum.cd' [parentFormGroup]='formGroup'></app-toa-cd-detail>
   <app-toa-full-partial *ngIf='cdOrInvest === cdOrInvestEnum.invest' [parentFormGroup]='formGroup'></app-toa-full-partial>
+  <app-toa-questions [questions]='cdInvestQuestions' (selectedValueChange)='selectedValueChangeHandler($event)'></app-toa-questions>
 </form>
